@@ -276,7 +276,7 @@ def main():
     print("\nSite generation complete!")
 
     if os.path.isdir(output_directory):
-        ghp_import(srcdir=output_directory, push=True, force=True, no_history=True)
+        ghp_import(srcdir=output_directory, mesg='Updated from main branch', push=True, force=True, no_history=True)
     else:
         print(f"Error: {output_directory} does not exist")
 
