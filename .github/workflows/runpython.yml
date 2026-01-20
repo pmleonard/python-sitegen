@@ -1,0 +1,27 @@
+name: Run Python Script
+
+on: [push] # This workflow runs on every push to the repository
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # The type of runner that will run the job
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4 # Action to check out your repository's code
+
+    - name: Set up Python
+      uses: actions/setup-python@v5 # Action to set up Python environment
+      with:
+        python-version: '3.10' # Specify the version of Python you need
+
+    - name: Install dependencies (optional)
+      run: |
+        if [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        fi
+    - name: Execute Python script
+      run: src/main.py
+
+    - name: Execute Python script
+      run: python hello.py # Command to run your Python script
