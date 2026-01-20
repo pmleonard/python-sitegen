@@ -278,7 +278,7 @@ def main():
     if os.path.isdir(output_directory):
         ghp_import(srcdir=output_directory, push=True, force=True, no_history=True)
     else:
-        print(f"Error: {output_directory} does not exist!")
+        print(f"Error: {output_directory} does not exist")
 
 if __name__ == '__main__':
     main()
