@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5 # Action to set up Python environment
       with:
-        python-version: '3.10' # Specify the version of Python you need
+        python-version: '3.11' # Specify the version of Python you need
 
     - name: Install dependencies (optional)
       run: |
