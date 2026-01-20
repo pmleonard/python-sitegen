@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>${title}</title>
+        <link rel="stylesheet" href="${ref_prefix}css/style.css">
+        <script src="${ref_prefix}scripts/script.js"></script>
+        <script src="${ref_prefix}scripts/containers.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="${logoimg}" alt="Logo" class="logo">
+            <h1 class="title">${title}</h1>
+            <nav class="nav">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div id="menu" class="menu-hidden">
+                    <ul>${navigation_links}
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            ${page_markdown}
+            <br>
+            ${containers_markdown}
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2025 Your Website. Generated from a Markdown file.</p>
+        </footer>
+    </body>
+</html>
