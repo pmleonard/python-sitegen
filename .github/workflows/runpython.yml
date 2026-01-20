@@ -25,4 +25,4 @@ jobs:
         API_KEY: ${{ secrets.penv }}
       run: |
         chmod +x src/main.py
-        src/main.py
+        python src/main.py
