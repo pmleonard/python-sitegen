@@ -275,7 +275,7 @@ def main():
 
     print("\nSite generation complete!")
     
-    ghp_import(srcdir=output_directory, push=True, cname='example.com')
+    ghp_import(srcdir=output_directory, push=True)
 
 if __name__ == '__main__':
     main()
