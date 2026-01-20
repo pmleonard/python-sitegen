@@ -1,0 +1,10 @@
+{
+    "title": "Photography",
+    "layout": "page",
+    "logoimg": "./images/logo.png",
+    "navmenu": true,
+    "navorder": 2,
+    "containerspath": "photos",
+    "page_markdown": "<h1>Ait dixi exspectata humum</h1>\n<p>Lorem markdownum et est. Ter rugis incipit manu inclitus menses in pone lacertis\nceler eundi puppim; nec exanimem <code>import_hypermedia_sku</code>, hunc.</p>",
+    "navigation_links": "\n\t\t\t\t\t\t<li><a href=\"./index.html\">Design</a></li>\n\t\t\t\t\t\t<li><a href=\"./photography.html\" class=\"active\">Photography</a></li>\n\t\t\t\t\t\t<li><a href=\"./about.html\">About</a></li>\n\t\t\t\t\t\t<li><a href=\"./contact.html\">Contact</a></li>"
+}

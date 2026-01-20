@@ -1,0 +1,8 @@
+{
+    "title": "Contact",
+    "layout": "page",
+    "logoimg": "./images/logo.png",
+    "navmenu": false,
+    "page_markdown": "<h1>Thank You</h1>\n<h2>I'll get back to you as soon as possible.</h2>",
+    "navigation_links": "\n\t\t\t\t\t\t<li><a href=\"./index.html\">Design</a></li>\n\t\t\t\t\t\t<li><a href=\"./photography.html\">Photography</a></li>\n\t\t\t\t\t\t<li><a href=\"./about.html\">About</a></li>\n\t\t\t\t\t\t<li><a href=\"./contact.html\" class=\"active\">Contact</a></li>"
+}
