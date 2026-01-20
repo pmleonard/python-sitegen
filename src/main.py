@@ -5,6 +5,7 @@ import yaml
 import json
 import shutil
 from string import Template
+from ghp_import import ghp_import
 
 
 def parse_front_matter(markdown_text):
@@ -273,7 +274,8 @@ def main():
     copy_static_assets([css_directory, scripts_directory, images_directory], output_directory)
 
     print("\nSite generation complete!")
-
+    
+    ghp_import('docs', push=True, cname='example.com')
 
 if __name__ == '__main__':
     main()
