@@ -274,8 +274,11 @@ def main():
     copy_static_assets([css_directory, scripts_directory, images_directory], output_directory)
 
     print("\nSite generation complete!")
-    
-    ghp_import(srcdir=output_directory, push=True)
+
+    if os.path.isdir(output_directory):
+        ghp_import(srcdir=output_directory, push=True, force=True, no_history=True)
+    else:
+        print(f"Error: {output_directory} does not exist!")
 
 if __name__ == '__main__':
     main()
