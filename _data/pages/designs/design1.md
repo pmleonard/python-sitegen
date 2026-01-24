@@ -20,7 +20,7 @@ corpora!
 > quae, vocandus nomen. Aut tauri clamore puellae referebam figitque, gravet
 > relinquunt venae et maxima.
 
-<img alt="Ipsum Lorem" height="100" src="../images/logo3.png" width="100"/>
+<img alt="Ipsum Lorem" height="200" src="../images/design1.png"/>
 
 Admotumque nec inque causa stagno considerat *instabilemque* stipite sanguis
 elisi quantum Iove vadit et cecidisse pervenit. Hasta concutiens retia, ramos
