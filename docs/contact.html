@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./scripts/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="./images/logo.png" alt="Logo" class="logo">
+            <h1>Contact</h1>
+            <nav class="nav">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div id="menu" class="menu-hidden">
+                    <ul>
+						<li><a href="./index.html">Design</a></li>
+						<li><a href="./photography.html">Photography</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="./contact.html" class="active">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-section">
+                <div class="contact-intro">
+                    <p class="contact-description">
+                        Fill out the form below and I'll get back to you as soon as possible.
+                    </p>
+                </div>
+                
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+                    <input type="hidden" name="from_name" value="My Website" />
+                    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+                    
+                    <div class="form-group-container">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <button class="form-submit" type="submit">Send Message</button>
+                </form>
+            
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2025 Your Website. Generated from a Markdown file.</p>
+        </footer>
+    </body>
+</html>
